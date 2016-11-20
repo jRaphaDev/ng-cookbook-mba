@@ -1,1 +1,107 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #f0f0f0 !important;
+    margin: 0 !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.breadcrumb{
+    background-color: transparent !important;
+    color: #41555e !important;
+    padding-left: 0 !important;
+    margin-bottom: 0px;
+}
+
+.breadcrumb>li+li:before{
+    color: #FF0000;
+    content: ">";
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn {
+    margin-top: 23px !important;
+    padding: 8px 20px !important;
+    border-radius: 0 !important;
+}
+
+.btn-primary{
+  background-color: #42555e !important;
+  border-color: #42555e !important;
+}
+
+.btn-primary:hover{
+  background-color: #566D78 !important;
+  border-color: #566D78 !important;    
+}
+.card{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.35);
+}
+
+.card-header{
+    padding: 16px;
+    border-bottom: solid 1px #cacaca;
+}
+
+.card-header span{
+    font-size: 16px;
+    color: #41555e;
+}
+
+.card-body{
+    padding: 16px 16px 25px 16px;
+}
+
+.form-control{
+    border-radius: 3px;
+    box-shadow: none !important;
+    min-height: 41px;
+    margin-right: 5px;
+}
+
+.form-control:focus {
+    border-color: #a7a7a7;
+}
+
+.form-inline {
+    padding-top: 12px !important;
+}
+
+label{
+    font-size: 12px;
+    color: #1e1e1e;
+    font-weight: 400;
+    display: block;
+}
+
+option{
+    border-radius: 3px;
+    height: 100px !important; 
+}
+
+.title-page{
+    font-size: 18px;
+    color: #41555e;
+}
+
+.w-170 {
+    width: 170px !important;
+}
+
+.w-260 {
+    width: 260px !important;
+}
+
+.w-300 {
+    width: 300px !important;
+}
+
+.w-340 {
+    width: 340px !important;
+}
+
+.w-610 {
+    width: 340px !important;
+}
